@@ -19,10 +19,10 @@ import java.util.Properties;
 
                     // Hibernate settings equivalent to hibernate.cfg.xml's properties
                     Properties settings = new Properties();
-                    settings.put(Environment.DRIVER, "com.postgresql.jdbc.Driver");
+                    settings.put(Environment.DRIVER, "org.postgresql.Driver");
                     settings.put(Environment.URL, "jdbc:postgresql://localhost:5432/test");
                     settings.put(Environment.USER, "postgres");
-                    settings.put(Environment.PASS, "");
+                    settings.put(Environment.PASS, "Whatwhat4321!");
                     settings.put(Environment.DIALECT, "org.hibernate.dialect.PostgreSQLDialect");
 
                     settings.put(Environment.SHOW_SQL, "true");
