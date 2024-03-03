@@ -5,12 +5,15 @@
   Time: 12:56
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+<%@page import="com.brenda.jsp_crud_example.doa.UserDao"%>
+<jsp:useBean id="u" class="com.brenda.jsp_crud_example.bean.User"></jsp:useBean>
+<jsp:setProperty property="*" name="u"/>
 
-</body>
-</html>
+<%
+    int i=UserDao.save(u);
+    if(i>0){
+        response.sendRedirect("adduser-success.jsp");
+    }else{
+        response.sendRedirect("adduser-error.jsp");
+    }
+%>
