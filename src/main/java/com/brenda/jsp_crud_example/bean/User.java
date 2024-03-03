@@ -1,8 +1,25 @@
 package com.brenda.jsp_crud_example.bean;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "users")
 public class User {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private int id;
-    private String name,password,email,gender,country;
+    @Column(name = "name")
+    private String name;
+    @Column(name = "password")
+    private String password;
+    @Column(name = "email")
+    private String email;
+    @Column(name = "gender")
+    private String gender;
+    @Column(name = "country")
+    private String country;
 
     public User() {
 
