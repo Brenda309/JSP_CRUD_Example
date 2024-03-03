@@ -22,7 +22,7 @@ import java.util.Properties;
                     settings.put(Environment.DRIVER, "com.postgresql.jdbc.Driver");
                     settings.put(Environment.URL, "jdbc:postgresql://localhost:5432/test");
                     settings.put(Environment.USER, "postgres");
-                    settings.put(Environment.PASS, "Whatwhat4321");
+                    settings.put(Environment.PASS, "");
                     settings.put(Environment.DIALECT, "org.hibernate.dialect.PostgreSQLDialect");
 
                     settings.put(Environment.SHOW_SQL, "true");
