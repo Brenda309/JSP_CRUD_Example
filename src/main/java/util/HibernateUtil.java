@@ -1,3 +1,5 @@
+package util;
+
 import com.brenda.jsp_crud_example.bean.User;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
