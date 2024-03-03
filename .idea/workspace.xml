@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9460ac62-ce92-49d9-b416-5598cf47fd78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/userform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/userform.html" afterDir="false" />
-    </list>
+    <list default="true" id="9460ac62-ce92-49d9-b416-5598cf47fd78" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +15,7 @@
       <list>
         <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -103,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709138958488</updated>
       <workItem from="1709138959564" duration="5233000" />
-      <workItem from="1709462659120" duration="1717000" />
+      <workItem from="1709462659120" duration="2215000" />
     </task>
     <servers />
   </component>
